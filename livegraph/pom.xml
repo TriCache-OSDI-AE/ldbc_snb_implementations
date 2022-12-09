@@ -38,7 +38,6 @@
                 <artifactId>maven-thrift-plugin</artifactId>
                 <version>0.1.11</version>
                 <configuration>
-                    <thriftExecutable>/home/jiguanglizipao/.local/libthrift/bin/thrift</thriftExecutable>
                     <thriftSourceRoot>src/main/java/com/ldbc/impls/workloads/ldbc/snb/livegraph/thrift</thriftSourceRoot>
                     <outputDirectory>src/main/java/com/ldbc/impls/workloads/ldbc/snb/livegraph/thrift-gen</outputDirectory>
                     <generator>java</generator>
